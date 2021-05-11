@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+}
+.header {
+  height: 3rem;
+  width: 100%;
+  border: 2px black solid;
+  background-color: #86cebc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 100%;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+#wnba-logo {
+  height: 3rem;
+  width: 3rem;
+}
+#about {
+  height: 40%;
+  background-color: #86cebc;
+  padding: 1.5rem;
+  line-height: 2rem;
+}
+.info {
+  width: 70%;
+}
+#map {
+  width: 100%;
+  margin-top: 2%;
+  height: 40%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
